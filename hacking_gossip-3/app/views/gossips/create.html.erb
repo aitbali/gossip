@@ -1,0 +1,12 @@
+
+<div class="container">
+ <div class="center jumbotron">
+<h1>Coucou <%= @gossip.anonymous_author %> la maquerelle ! </h1> <br><br>
+<h2>Voici ta rumeur !</h2>
+<p><%= @gossip.content %></p><br><br><br>
+
+
+<%= link_to 'Clique ici pour détruire', @gossip, method: :delete %>
+
+
+
