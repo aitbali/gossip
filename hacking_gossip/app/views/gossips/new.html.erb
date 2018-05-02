@@ -1,16 +1,18 @@
 
- <div class="center jumbotron">
-<div class="container">
- <h1>Dis-nous tout!</h1>
+<div class="center jumbotron">
+	<div class="container">
+ 		<h1>Dis-nous tout!</h1>
 
-<%=form_tag gossips_path, method: "post" do %><br><br>
+			<%=form_tag gossips_path, method: "post" do %><br><br>
 
-Ton pseudo "anonyme" : <br>
- <%= text_field_tag 'anonymous_author', @anonymous_author %><br><br><br>
+			Ton pseudo "anonyme" : <br>
+ 			<%= text_field_tag 'anonymous_author', @anonymous_author %><br><br><br>
 
- Ta rumeur: <br>
- <%= text_field_tag 'content', @content %><br><br>
- <%= submit_tag 'Créer' %>
-<% end %>
+ 			Ta rumeur: <br>
+ 			<%= text_field_tag 'content', @content %><br><br>
+ 			<%= submit_tag 'Créer' %>
+		<% end %>
+	</div>
+</div>
 
 

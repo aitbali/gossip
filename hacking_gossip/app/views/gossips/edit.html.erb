@@ -1,13 +1,19 @@
-<h1>Editer la rumeur</h1>
 
-<%= form_for @gossip do |f| %>
+<div class="center jumbotron">
+	<div class="container">
 
-<div class="form-group">
+		<h1>Editer la rumeur</h1>
 
-  <label>Nouvelle rumeur</label>
+		<%= form_for @gossip do |f| %>
 
-  <%= f.text_field :content, class: 'form-control' %>
+		<div class="form-group">
 
-  </div>
+  		<label>Nouvelle rumeur</label>
 
-	<% end %>
+  		<%= f.text_field :content, class: 'form-control' %>
+
+  		</div>
+
+		<% end %>
+	</div>
+</div>
