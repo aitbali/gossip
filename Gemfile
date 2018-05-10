@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
+gem 'frontend-generators'
 
 group :development, :test do
   gem 'sqlite3'
@@ -48,7 +49,6 @@ group :development, :test do
   gem 'database_cleaner'
   gem "factory_bot_rails"
   gem 'simplecov'
-  gem 'frontend-generators'
 end
 
 group :development do
